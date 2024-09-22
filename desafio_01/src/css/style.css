@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: monospace;
+    background-color: rgb(111, 111, 214);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(108, 163, 108);
+    width: auto;
+    padding: 10px;
+    color: white;
+    margin: 0px;
+    border-radius: 10px;
+    width: 900px;
+}
+ol{
+    padding-inline-start: 0px;
+}
+nav{
+    align-self: center;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:visited{
+    color: white;
+}
+nav a:hover{
+    color: cyan;
+}
+section h1{
+    font-size: 35px;
+    font-weight: 2000;
+
+    color: rgb(0, 0, 0);
+}
+section h3 {
+    font-size: 25px;
+}
+section p{
+    font-size: 20px;
+}
+#gifhtml{
+    border-radius: 20px;
+}
+.cursos {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+#HTML {
+    width: 200px;
+}
+#CSS{
+    width: 150px;
+}
+#js{
+    width: 150px;
+}
+#cat2{
+    width: 100px;
+}
+.cursos a{
+    align-self: center;
+}
+.cursos a{
+    text-decoration: none;
+}
+.cursos a:visited{
+    color: green;
+}
+.cursos a:hover{
+    color: white;
+}
+#linkHTML:hover{
+    background-color: rgb(243, 180, 44);
+    padding-top: 10px;
+    border-radius: 5px;
+    scale: 120%;
+}
+#linkCSS:hover{
+    background-color: rgba(44, 180, 243, 0.534);
+    padding: 20px;
+    border-radius: 5px;
+    scale: 120%;
+}
+#linkJS:hover{
+    background-color: rgb(238, 230, 125);
+    padding-top: 10px;
+    border-radius: 5px;
+    scale: 120%;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    align-self: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form input{
+    border-radius: 10px;
+    border: transparent;
+    text-align: center;
+    height: 20px;
+    background-color: rgb(248, 217, 222);
+    color: white;
+}
