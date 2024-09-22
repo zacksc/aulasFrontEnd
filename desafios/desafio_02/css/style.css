@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+    font-family: monospace;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+nav {
+    background-color: rgb(193, 240, 123);
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(39, 88, 39);
+    padding: 90px;
+}
+.caixas {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+.box1 {
+    background-color: rgb(240, 238, 130);
+    padding: 90px;
+    height: 90px;
+    width: 30%;
+}
+.box2 {
+    background-color: rgb(175, 245, 175);
+    padding: 90px;
+    height: 90px;
+    width: 30%;
+}
+.box3 {
+    background-color: rgb(238, 148, 107);
+    padding: 90px;
+    height: 90px;
+    width: 30%;
+}
+.info {
+    background-color: rgb(192, 145, 236);
+    padding: 90px;
+}
+footer{
+    background-color: rgb(170, 243, 219);
+    padding: 20px;
+}
